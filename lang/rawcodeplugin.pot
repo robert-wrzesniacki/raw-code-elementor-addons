@@ -1,0 +1,1029 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-05 15:51+0200\n"
+"PO-Revision-Date: 2023-08-05 15:51+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 1.0.0.0\n"
+
+#: raw-code-elementor-addons.php:144
+msgid "RAW-CODE ADDONS"
+msgstr ""
+
+#: raw-code-elementor-addons.php:165
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#: raw-code-elementor-addons.php:166 raw-code-elementor-addons.php:190
+#: raw-code-elementor-addons.php:214
+msgid "RawCodePlugin"
+msgstr ""
+
+#: raw-code-elementor-addons.php:167 raw-code-elementor-addons.php:191
+msgid "Elementor"
+msgstr ""
+
+#: raw-code-elementor-addons.php:189 raw-code-elementor-addons.php:213
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: raw-code-elementor-addons.php:215
+msgid "PHP"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:71
+#: widgets/clients/clients.php:67 widgets/filelist/filelist.php:67
+#: widgets/heading/heading.php:145 widgets/opinions/opinions.php:67
+#: widgets/postlist/postlist.php:71 widgets/postls/postls.php:133
+#: widgets/projectsgrid/projectsgrid.php:66
+msgid "Settings"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:79
+#: widgets/postlist/postlist.php:79 widgets/projectsgrid/projectsgrid.php:74
+msgid "List Typ"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:84
+#: widgets/postlist/postlist.php:84
+msgid "List"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:86
+#: widgets/postlist/postlist.php:86 widgets/projectsgrid/projectsgrid.php:81
+msgid "Grid"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:176
+#: widgets/filelist/filelist.php:139 widgets/opinions/opinions.php:102
+#: widgets/postlist/postlist.php:188 widgets/projectsgrid/projectsgrid.php:183
+msgid "Sorting By"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:180
+#: widgets/filelist/filelist.php:144 widgets/opinions/opinions.php:106
+#: widgets/postlist/postlist.php:192 widgets/projectsgrid/projectsgrid.php:187
+msgid "Date"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:181
+#: widgets/archive-postlist/archive-postlist.php:559
+#: widgets/filelist/filelist.php:143 widgets/goodtoknow/goodtoknow.php:454
+#: widgets/heading/heading.php:68 widgets/opinions/opinions.php:107
+#: widgets/postlist/postlist.php:193 widgets/postlist/postlist.php:571
+#: widgets/projectsgrid/projectsgrid.php:188 widgets/services/services.php:510
+#: widgets/subscription/subscription.php:521
+msgid "Title"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:182
+#: widgets/filelist/filelist.php:145 widgets/opinions/opinions.php:108
+#: widgets/postlist/postlist.php:194 widgets/projectsgrid/projectsgrid.php:189
+msgid "Random"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:189
+#: widgets/filelist/filelist.php:152 widgets/opinions/opinions.php:109
+#: widgets/opinions/opinions.php:116 widgets/postlist/postlist.php:201
+#: widgets/projectsgrid/projectsgrid.php:197
+msgid "Order"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:193
+#: widgets/filelist/filelist.php:156 widgets/opinions/opinions.php:120
+#: widgets/postlist/postlist.php:205 widgets/projectsgrid/projectsgrid.php:201
+msgid "ASC"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:194
+#: widgets/filelist/filelist.php:157 widgets/opinions/opinions.php:121
+#: widgets/postlist/postlist.php:206 widgets/projectsgrid/projectsgrid.php:202
+msgid "DESC"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:202
+#: widgets/opinions/opinions.php:129 widgets/postlist/postlist.php:214
+msgid "Show Author"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:204
+#: widgets/archive-postlist/archive-postlist.php:215
+#: widgets/archive-postlist/archive-postlist.php:246
+#: widgets/archive-postlist/archive-postlist.php:286
+#: widgets/likeview/likeview.php:77 widgets/likeview/likeview.php:89
+#: widgets/likeview/likeview.php:114 widgets/likeview/likeview.php:126
+#: widgets/opinions/opinions.php:131 widgets/postlist/postlist.php:216
+#: widgets/postlist/postlist.php:227 widgets/postlist/postlist.php:258
+#: widgets/postlist/postlist.php:298 widgets/projectsgrid/projectsgrid.php:222
+#: widgets/projectsgrid/projectsgrid.php:235
+#: widgets/projectsgrid/projectsgrid.php:270
+#: widgets/projectsgrid/projectsgrid.php:282
+#: widgets/projectsgrid/projectsgrid.php:294 widgets/services/services.php:198
+msgid "Show"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:205
+#: widgets/archive-postlist/archive-postlist.php:216
+#: widgets/archive-postlist/archive-postlist.php:247
+#: widgets/archive-postlist/archive-postlist.php:287
+#: widgets/likeview/likeview.php:78 widgets/likeview/likeview.php:90
+#: widgets/likeview/likeview.php:115 widgets/likeview/likeview.php:127
+#: widgets/opinions/opinions.php:132 widgets/postlist/postlist.php:217
+#: widgets/postlist/postlist.php:228 widgets/postlist/postlist.php:259
+#: widgets/postlist/postlist.php:299 widgets/projectsgrid/projectsgrid.php:223
+#: widgets/projectsgrid/projectsgrid.php:236
+#: widgets/projectsgrid/projectsgrid.php:271
+#: widgets/projectsgrid/projectsgrid.php:283
+#: widgets/projectsgrid/projectsgrid.php:295 widgets/services/services.php:199
+msgid "Hide"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:213
+#: widgets/postlist/postlist.php:225
+msgid "Show Data"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:224
+#: widgets/postlist/postlist.php:236
+msgid "Date Format"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:228
+#: widgets/postlist/postlist.php:240
+msgid "01.01.2023"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:229
+#: widgets/postlist/postlist.php:241
+msgid "January 1, 2023"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:230
+#: widgets/postlist/postlist.php:242
+msgid "1 January 2023 "
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:231
+#: widgets/postlist/postlist.php:243
+msgid "01/01/2023"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:232
+#: widgets/postlist/postlist.php:244
+msgid "01/30/2023"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:234
+#: widgets/postlist/postlist.php:246
+msgid "Select the format for the date display."
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:244
+#: widgets/postlist/postlist.php:256
+msgid "Show Tags"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:256
+#: widgets/postlist/postlist.php:268
+msgid "Number of Tags"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:278
+#: widgets/archive-postlist/archive-postlist.php:295
+#: widgets/archive-postlist/archive-postlist.php:1058
+#: widgets/postlist/postlist.php:290 widgets/postlist/postlist.php:307
+#: widgets/postlist/postlist.php:1073
+msgid "Pagination"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:284
+#: widgets/postlist/postlist.php:296
+msgid "Show Pagination"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:300
+#: widgets/archive-postlist/archive-postlist.php:302
+#: widgets/postlist/postlist.php:312 widgets/postlist/postlist.php:314
+msgid "Numbers"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:301
+#: widgets/archive-postlist/archive-postlist.php:302
+#: widgets/postlist/postlist.php:313 widgets/postlist/postlist.php:314
+msgid "Previous/Next"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:326
+#: widgets/postlist/postlist.php:338
+msgid "Shorten"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:344
+#: widgets/postlist/postlist.php:356
+msgid "Previous Label"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:345
+#: widgets/postlist/postlist.php:357
+msgid "&laquo; Previous"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:364
+#: widgets/postlist/postlist.php:376
+msgid "Next Label"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:365
+#: widgets/postlist/postlist.php:377
+msgid "Next &raquo;"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:384
+#: widgets/goodtoknow/goodtoknow.php:424 widgets/postlist/postlist.php:396
+#: widgets/rating/rating.php:130 widgets/rating/rating.php:651
+#: widgets/services/services.php:480 widgets/services/services.php:723
+#: widgets/services/services.php:763 widgets/services/services.php:1276
+#: widgets/subscription/subscription.php:423
+msgid "Alignment"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:388
+#: widgets/goodtoknow/goodtoknow.php:428 widgets/heading/heading.php:115
+#: widgets/postlist/postlist.php:400 widgets/rating/rating.php:134
+#: widgets/rating/rating.php:655 widgets/services/services.php:484
+#: widgets/services/services.php:727 widgets/services/services.php:767
+#: widgets/services/services.php:1280
+#: widgets/subscription/subscription.php:427
+msgid "Left"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:392
+#: widgets/goodtoknow/goodtoknow.php:432 widgets/heading/heading.php:119
+#: widgets/postlist/postlist.php:404 widgets/rating/rating.php:138
+#: widgets/rating/rating.php:659 widgets/services/services.php:488
+#: widgets/services/services.php:731 widgets/services/services.php:771
+#: widgets/services/services.php:1284
+#: widgets/subscription/subscription.php:431
+msgid "Center"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:396
+#: widgets/goodtoknow/goodtoknow.php:436 widgets/heading/heading.php:123
+#: widgets/postlist/postlist.php:408 widgets/rating/rating.php:142
+#: widgets/rating/rating.php:663 widgets/services/services.php:492
+#: widgets/services/services.php:735 widgets/services/services.php:775
+#: widgets/services/services.php:1288
+#: widgets/subscription/subscription.php:435
+msgid "Right"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:420
+#: widgets/postlist/postlist.php:432
+msgid "Post Style"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:430
+#: widgets/postlist/postlist.php:442
+msgid "Data"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:440
+#: widgets/archive-postlist/archive-postlist.php:744
+#: widgets/archive-postlist/archive-postlist.php:777
+#: widgets/archive-postlist/archive-postlist.php:806
+#: widgets/clients/clients.php:258 widgets/heading/heading.php:160
+#: widgets/likeview/likeview.php:186 widgets/opinions/opinions.php:208
+#: widgets/postlist/postlist.php:452 widgets/postlist/postlist.php:756
+#: widgets/postlist/postlist.php:789 widgets/postlist/postlist.php:818
+#: widgets/rating/rating.php:565 widgets/rating/rating.php:607
+#: widgets/services/services.php:642 widgets/services/services.php:681
+#: widgets/services/services.php:1189 widgets/services/services.php:1231
+msgid "Text Color"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:452
+#: widgets/postlist/postlist.php:464 widgets/projectsgrid/projectsgrid.php:402
+msgid "Background Color"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:473
+#: widgets/postlist/postlist.php:485
+msgid "Data Padding"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:489
+#: widgets/postlist/postlist.php:116 widgets/postlist/postlist.php:501
+msgid "Tag"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:501
+#: widgets/archive-postlist/archive-postlist.php:571
+#: widgets/archive-postlist/archive-postlist.php:738
+#: widgets/goodtoknow/goodtoknow.php:175 widgets/goodtoknow/goodtoknow.php:262
+#: widgets/goodtoknow/goodtoknow.php:483 widgets/goodtoknow/goodtoknow.php:564
+#: widgets/postlist/postlist.php:513 widgets/postlist/postlist.php:583
+#: widgets/postlist/postlist.php:750 widgets/projectsgrid/projectsgrid.php:576
+#: widgets/rating/rating.php:170 widgets/rating/rating.php:273
+#: widgets/rating/rating.php:363 widgets/rating/rating.php:457
+#: widgets/rating/rating.php:544 widgets/services/services.php:271
+#: widgets/services/services.php:624 widgets/services/services.php:803
+#: widgets/services/services.php:900 widgets/services/services.php:988
+#: widgets/services/services.php:1080 widgets/services/services.php:1168
+#: widgets/subscription/subscription.php:212
+#: widgets/subscription/subscription.php:461
+#: widgets/subscription/subscription.php:550
+#: widgets/subscription/subscription.php:655
+#: widgets/subscription/subscription.php:722
+msgid "Normal"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:508
+#: widgets/archive-postlist/archive-postlist.php:529
+#: widgets/archive-postlist/archive-postlist.php:578
+#: widgets/archive-postlist/archive-postlist.php:599
+#: widgets/archive-postlist/archive-postlist.php:637
+#: widgets/archive-postlist/archive-postlist.php:673
+#: widgets/goodtoknow/goodtoknow.php:490 widgets/goodtoknow/goodtoknow.php:511
+#: widgets/goodtoknow/goodtoknow.php:571 widgets/goodtoknow/goodtoknow.php:595
+#: widgets/postlist/postlist.php:520 widgets/postlist/postlist.php:541
+#: widgets/postlist/postlist.php:590 widgets/postlist/postlist.php:611
+#: widgets/postlist/postlist.php:649 widgets/postlist/postlist.php:685
+#: widgets/projectsgrid/projectsgrid.php:583 widgets/rating/rating.php:279
+#: widgets/rating/rating.php:309 widgets/rating/rating.php:370
+#: widgets/rating/rating.php:401 widgets/rating/rating.php:463
+#: widgets/rating/rating.php:495 widgets/services/services.php:536
+#: widgets/services/services.php:583 widgets/services/services.php:906
+#: widgets/services/services.php:936 widgets/services/services.php:995
+#: widgets/services/services.php:1026 widgets/services/services.php:1086
+#: widgets/services/services.php:1118
+#: widgets/subscription/subscription.php:468
+#: widgets/subscription/subscription.php:492
+#: widgets/subscription/subscription.php:557
+#: widgets/subscription/subscription.php:581
+#: widgets/subscription/subscription.php:662
+#: widgets/subscription/subscription.php:686
+#: widgets/subscription/subscription.php:729
+#: widgets/subscription/subscription.php:753
+msgid "Color"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:522
+#: widgets/archive-postlist/archive-postlist.php:592
+#: widgets/archive-postlist/archive-postlist.php:771
+#: widgets/goodtoknow/goodtoknow.php:207 widgets/goodtoknow/goodtoknow.php:287
+#: widgets/goodtoknow/goodtoknow.php:504 widgets/goodtoknow/goodtoknow.php:588
+#: widgets/postlist/postlist.php:534 widgets/postlist/postlist.php:604
+#: widgets/postlist/postlist.php:783 widgets/projectsgrid/projectsgrid.php:597
+#: widgets/rating/rating.php:201 widgets/rating/rating.php:303
+#: widgets/rating/rating.php:394 widgets/rating/rating.php:488
+#: widgets/rating/rating.php:589 widgets/services/services.php:303
+#: widgets/services/services.php:663 widgets/services/services.php:831
+#: widgets/services/services.php:930 widgets/services/services.php:1019
+#: widgets/services/services.php:1111 widgets/services/services.php:1213
+#: widgets/subscription/subscription.php:307
+#: widgets/subscription/subscription.php:485
+#: widgets/subscription/subscription.php:574
+#: widgets/subscription/subscription.php:679
+#: widgets/subscription/subscription.php:746
+msgid "Hover"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:627
+#: widgets/postlist/postlist.php:639
+msgid "Author"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:660
+#: widgets/postlist/postlist.php:672
+msgid "Views / Likes"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:701
+#: widgets/archive-postlist/archive-postlist.php:830
+#: widgets/clients/clients.php:208 widgets/postlist/postlist.php:713
+#: widgets/postlist/postlist.php:842
+msgid "Space Between"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:728
+#: widgets/postlist/postlist.php:740
+msgid "Pagination Style"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:800
+#: widgets/postlist/postlist.php:812
+msgid "Active"
+msgstr ""
+
+#: widgets/archive-postlist/archive-postlist.php:1022
+#: widgets/postlist/postlist.php:1037
+msgid "Page"
+msgstr ""
+
+#: widgets/archive-postlist/style1.php:56 widgets/likeview/likeview.php:276
+#: widgets/postlist/style1.php:56 widgets/projectsgrid/style2.php:50
+msgid "Views"
+msgstr ""
+
+#: widgets/archive-postlist/style1.php:67 widgets/likeview/likeview.php:289
+#: widgets/postlist/style1.php:67 widgets/projectsgrid/style2.php:61
+msgid "Likes"
+msgstr ""
+
+#: widgets/clients/clients.php:75 widgets/clients/clients.php:243
+#: widgets/heading/heading.php:76 widgets/opinions/opinions.php:75
+#: widgets/opinions/opinions.php:193
+msgid "Style"
+msgstr ""
+
+#: widgets/clients/clients.php:80 widgets/opinions/opinions.php:80
+msgid "Style 1"
+msgstr ""
+
+#: widgets/clients/clients.php:82 widgets/opinions/opinions.php:82
+msgid "Style 2"
+msgstr ""
+
+#: widgets/clients/clients.php:92
+msgid "Add Clients Logo"
+msgstr ""
+
+#: widgets/clients/clients.php:105 widgets/opinions/opinions.php:144
+msgid "Slider Settings"
+msgstr ""
+
+#: widgets/clients/clients.php:116 widgets/opinions/opinions.php:154
+msgid "Autoplay"
+msgstr ""
+
+#: widgets/clients/clients.php:123 widgets/opinions/opinions.php:160
+msgid "Loop"
+msgstr ""
+
+#: widgets/clients/clients.php:132 widgets/opinions/opinions.php:169
+msgid "Slider Speed"
+msgstr ""
+
+#: widgets/clients/clients.php:143 widgets/opinions/opinions.php:177
+msgid "Slider Delay"
+msgstr ""
+
+#: widgets/clients/clients.php:157
+msgid "Slides Per View"
+msgstr ""
+
+#: widgets/clients/clients.php:251 widgets/opinions/opinions.php:201
+msgid "Text Typography"
+msgstr ""
+
+#: widgets/clients/clients.php:270 widgets/opinions/opinions.php:220
+msgid "Author Typography"
+msgstr ""
+
+#: widgets/clients/clients.php:277 widgets/opinions/opinions.php:227
+msgid "Author Color"
+msgstr ""
+
+#: widgets/filelist/filelist.php:75
+msgid "Files Per Page"
+msgstr ""
+
+#: widgets/filelist/filelist.php:88
+msgid "Limit Files By"
+msgstr ""
+
+#: widgets/filelist/filelist.php:93 widgets/postlist/postlist.php:112
+#: widgets/projectsgrid/projectsgrid.php:139
+msgid "No Limit"
+msgstr ""
+
+#: widgets/filelist/filelist.php:95 widgets/postlist/postlist.php:114
+#: widgets/projectsgrid/projectsgrid.php:141
+msgid "Category"
+msgstr ""
+
+#: widgets/filelist/filelist.php:97 widgets/postlist/postlist.php:118
+#: widgets/projectsgrid/projectsgrid.php:143
+msgid "Select"
+msgstr ""
+
+#: widgets/filelist/filelist.php:105 widgets/postlist/postlist.php:126
+#: widgets/projectsgrid/projectsgrid.php:151
+msgid "Select categories"
+msgstr ""
+
+#: widgets/filelist/filelist.php:106
+msgid "Select categories of files to show"
+msgstr ""
+
+#: widgets/filelist/filelist.php:124
+msgid "Select files"
+msgstr ""
+
+#: widgets/filelist/filelist.php:125
+msgid "Select files to show or leave empty to show all"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:66 widgets/goodtoknow/goodtoknow.php:416
+#: widgets/likeview/likeview.php:67 widgets/rating/rating.php:66
+#: widgets/services/services.php:66 widgets/services/services.php:472
+#: widgets/subscription/subscription.php:66
+#: widgets/subscription/subscription.php:415
+#: widgets/taxonomylist/taxonomylist.php:60
+msgid "Content"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:76 widgets/goodtoknow/goodtoknow.php:252
+#: widgets/services/services.php:76 widgets/services/services.php:348
+msgid "Icon"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:89 widgets/services/services.php:89
+#: widgets/subscription/subscription.php:89
+msgid "Title & Description"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:94 widgets/services/services.php:94
+#: widgets/subscription/subscription.php:94
+msgid "This is the heading"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:95 widgets/services/services.php:95
+#: widgets/subscription/subscription.php:95
+msgid "Enter your title"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:108 widgets/services/services.php:108
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:109 widgets/services/services.php:109
+msgid "Enter your description"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:119 widgets/services/services.php:119
+#: widgets/subscription/subscription.php:125
+msgid "Link"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:124 widgets/rating/rating.php:96
+#: widgets/services/services.php:124 widgets/services/services.php:233
+#: widgets/subscription/subscription.php:130
+msgid "https://your-link.com"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:134
+msgid "Good To Know List"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:145 widgets/services/services.php:154
+#: widgets/subscription/subscription.php:149
+msgid "Title HTML Tag"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:165 widgets/likeview/likeview.php:141
+#: widgets/rating/rating.php:122 widgets/rating/rating.php:159
+#: widgets/services/services.php:261 widgets/services/services.php:792
+#: widgets/subscription/subscription.php:202
+msgid "Box"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:182 widgets/goodtoknow/goodtoknow.php:214
+#: widgets/goodtoknow/goodtoknow.php:269 widgets/goodtoknow/goodtoknow.php:294
+#: widgets/rating/rating.php:177 widgets/rating/rating.php:208
+#: widgets/rating/rating.php:551 widgets/rating/rating.php:596
+#: widgets/services/services.php:278 widgets/services/services.php:310
+#: widgets/services/services.php:357 widgets/services/services.php:631
+#: widgets/services/services.php:670 widgets/services/services.php:810
+#: widgets/services/services.php:838 widgets/services/services.php:1175
+#: widgets/services/services.php:1220
+msgid "Primary Color"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:237 widgets/rating/rating.php:230
+#: widgets/rating/rating.php:633 widgets/services/services.php:333
+#: widgets/services/services.php:704 widgets/services/services.php:860
+#: widgets/services/services.php:1257
+#: widgets/subscription/subscription.php:400
+msgid "Box Padding"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:307
+msgid "Hover Animation"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:319 widgets/goodtoknow/goodtoknow.php:463
+#: widgets/likeview/likeview.php:226 widgets/rating/rating.php:254
+#: widgets/services/services.php:374 widgets/services/services.php:519
+#: widgets/services/services.php:881 widgets/subscription/subscription.php:530
+#: widgets/subscription/subscription.php:635
+msgid "Spacing"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:340 widgets/services/services.php:396
+msgid "Size"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:359 widgets/services/services.php:415
+msgid "Padding"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:390 widgets/services/services.php:446
+msgid "Rotate"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:440 widgets/heading/heading.php:127
+#: widgets/rating/rating.php:146 widgets/rating/rating.php:667
+#: widgets/services/services.php:496 widgets/services/services.php:739
+#: widgets/services/services.php:779 widgets/services/services.php:1292
+#: widgets/subscription/subscription.php:439
+msgid "Justified"
+msgstr ""
+
+#: widgets/goodtoknow/goodtoknow.php:555 widgets/rating/rating.php:86
+#: widgets/rating/rating.php:446 widgets/services/services.php:221
+#: widgets/services/services.php:575 widgets/services/services.php:1070
+#: widgets/subscription/subscription.php:114
+#: widgets/subscription/subscription.php:713
+msgid "Description"
+msgstr ""
+
+#: widgets/heading/heading.php:81
+msgid "H1"
+msgstr ""
+
+#: widgets/heading/heading.php:83
+msgid "H2"
+msgstr ""
+
+#: widgets/heading/heading.php:93
+msgid "Title text"
+msgstr ""
+
+#: widgets/heading/heading.php:111
+msgid "Title Alignment"
+msgstr ""
+
+#: widgets/heading/heading.php:153
+msgid "Typography"
+msgstr ""
+
+#: widgets/likeview/likeview.php:75
+msgid "Show Like Button"
+msgstr ""
+
+#: widgets/likeview/likeview.php:87
+msgid "Show Text"
+msgstr ""
+
+#: widgets/likeview/likeview.php:99
+msgid "Like Text"
+msgstr ""
+
+#: widgets/likeview/likeview.php:101
+msgid "Did you like this project?<br> Let me know about it!"
+msgstr ""
+
+#: widgets/likeview/likeview.php:112
+msgid "Show Likes Count"
+msgstr ""
+
+#: widgets/likeview/likeview.php:124
+msgid "Show Views Count"
+msgstr ""
+
+#: widgets/likeview/likeview.php:157
+msgid "Icon Color"
+msgstr ""
+
+#: widgets/likeview/likeview.php:168
+msgid "Icon Size"
+msgstr ""
+
+#: widgets/likeview/likeview.php:205
+msgid "Likes/Views Color"
+msgstr ""
+
+#: widgets/opinions/opinions.php:92 widgets/projectsgrid/projectsgrid.php:89
+msgid "Number of Items"
+msgstr ""
+
+#: widgets/postlist/postlist.php:94
+msgid "Post Per Page"
+msgstr ""
+
+#: widgets/postlist/postlist.php:107 widgets/projectsgrid/projectsgrid.php:134
+msgid "Limit Posts By"
+msgstr ""
+
+#: widgets/postlist/postlist.php:127 widgets/projectsgrid/projectsgrid.php:152
+msgid "Select categories of post to show"
+msgstr ""
+
+#: widgets/postlist/postlist.php:141
+msgid "Auto Category Select"
+msgstr ""
+
+#: widgets/postlist/postlist.php:143
+msgid "Yes"
+msgstr ""
+
+#: widgets/postlist/postlist.php:144
+msgid "No"
+msgstr ""
+
+#: widgets/postlist/postlist.php:156
+msgid "Select tags"
+msgstr ""
+
+#: widgets/postlist/postlist.php:157
+msgid "Select tags of post to show"
+msgstr ""
+
+#: widgets/postlist/postlist.php:171 widgets/projectsgrid/projectsgrid.php:166
+msgid "Select posts"
+msgstr ""
+
+#: widgets/postlist/postlist.php:172 widgets/projectsgrid/projectsgrid.php:167
+msgid "Select posts to show or leave empty to show all"
+msgstr ""
+
+#: widgets/postls/postls.php:109
+msgid "All"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:111
+msgid "Item Ratio"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:212
+msgid "Project Detail"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:220
+msgid "Show Project Title"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:233
+msgid "Show Categories"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:247
+msgid "Number of Categories"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:268
+msgid "Show separator"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:280
+msgid "Show Likes/Views"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:292
+msgid "Show Button"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:304
+msgid "Project Button Text"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:306
+msgid "See more"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:320
+msgid "Items"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:329
+msgid "Columns Gap"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:349
+msgid "Rows Gap"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:370
+#: widgets/subscription/subscription.php:234
+#: widgets/subscription/subscription.php:329
+msgid "Border Radius"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:381
+msgid "No Image Placeholder Color"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:394
+msgid "Item Overlay"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:413
+msgid "Title Color"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:429
+msgid "Title Typography"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:440
+msgid "Categories Color"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:456
+msgid "Categories Typography"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:469
+msgid "Separator Color"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:483
+msgid "Separator Height"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:505
+msgid "Separator Width"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:535
+msgid "Views\\Likes Color"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:552
+msgid "Views\\Likes Typography"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:604
+msgid "Hover Color"
+msgstr ""
+
+#: widgets/projectsgrid/projectsgrid.php:621
+msgid "Button Text Typography"
+msgstr ""
+
+#: widgets/rating/rating.php:74 widgets/services/services.php:207
+msgid "Rating - x / 5.0"
+msgstr ""
+
+#: widgets/rating/rating.php:94 widgets/services/services.php:231
+msgid "Opinion Link"
+msgstr ""
+
+#: widgets/rating/rating.php:105 widgets/services/services.php:244
+msgid "Opinion Link Text"
+msgstr ""
+
+#: widgets/rating/rating.php:107 widgets/services/services.php:246
+msgid "See opinions"
+msgstr ""
+
+#: widgets/rating/rating.php:246 widgets/services/services.php:872
+msgid "Rate"
+msgstr ""
+
+#: widgets/rating/rating.php:352 widgets/services/services.php:977
+msgid "Max Rate"
+msgstr ""
+
+#: widgets/rating/rating.php:533 widgets/services/services.php:614
+#: widgets/services/services.php:1155
+msgid "Button"
+msgstr ""
+
+#: widgets/services/services.php:132
+msgid "Link Text"
+msgstr ""
+
+#: widgets/services/services.php:134
+msgid "See More"
+msgstr ""
+
+#: widgets/services/services.php:143
+msgid "Services List"
+msgstr ""
+
+#: widgets/services/services.php:173
+msgid "Number of columns"
+msgstr ""
+
+#: widgets/services/services.php:177
+msgid "1"
+msgstr ""
+
+#: widgets/services/services.php:178
+msgid "2"
+msgstr ""
+
+#: widgets/services/services.php:179
+msgid "3"
+msgstr ""
+
+#: widgets/services/services.php:180
+msgid "4"
+msgstr ""
+
+#: widgets/services/services.php:181
+msgid "Auto"
+msgstr ""
+
+#: widgets/services/services.php:189
+msgid "Opinion Box"
+msgstr ""
+
+#: widgets/services/services.php:196
+msgid "Show Opinion Box"
+msgstr ""
+
+#: widgets/services/services.php:755
+msgid "Opinions"
+msgstr ""
+
+#: widgets/subscription/subscription.php:76
+msgid "Number of hours"
+msgstr ""
+
+#: widgets/subscription/subscription.php:104
+msgid "This is the subheading"
+msgstr ""
+
+#: widgets/subscription/subscription.php:105
+msgid "Enter your subtitle"
+msgstr ""
+
+#: widgets/subscription/subscription.php:138
+msgid "Subscription List"
+msgstr ""
+
+#: widgets/subscription/subscription.php:168
+msgid "Sub Title HTML Tag"
+msgstr ""
+
+#: widgets/subscription/subscription.php:187
+msgid "Hours sufix"
+msgstr ""
+
+#: widgets/subscription/subscription.php:189
+msgid "h / miesiąc"
+msgstr ""
+
+#: widgets/subscription/subscription.php:190
+msgid "Enter hours sufix"
+msgstr ""
+
+#: widgets/subscription/subscription.php:227
+#: widgets/subscription/subscription.php:322
+msgid "Border"
+msgstr ""
+
+#: widgets/subscription/subscription.php:246
+#: widgets/subscription/subscription.php:340
+msgid "Triangle Distance"
+msgstr ""
+
+#: widgets/subscription/subscription.php:267
+#: widgets/subscription/subscription.php:361
+msgid "Triangle Size"
+msgstr ""
+
+#: widgets/subscription/subscription.php:288
+#: widgets/subscription/subscription.php:382
+msgid "Triangle Color"
+msgstr ""
+
+#: widgets/subscription/subscription.php:452
+msgid "Hours suffix"
+msgstr ""
+
+#: widgets/subscription/subscription.php:626
+msgid "Sub Title"
+msgstr ""
+
+#: widgets/taxonomylist/taxonomylist.php:67
+msgid "Heading"
+msgstr ""
+
+#: widgets/taxonomylist/taxonomylist.php:80
+msgid "Select Taxonomy"
+msgstr ""
+
+#: widgets/taxonomylist/taxonomylist.php:89
+msgid "Separator"
+msgstr ""

@@ -1,0 +1,135 @@
+[
+    {
+        "key": "group_63de3d72c93ba",
+        "title": "Szczegóły projektu",
+        "fields": [
+            {
+                "key": "field_63de3d73d4e6f",
+                "label": "Nazwa Klienta",
+                "name": "nazwa_klienta",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "Wprowadź nazwę klienta, dla którego był wykonywany projekt.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_6470a7228bf91",
+                "label": "Treść linku do projektu",
+                "name": "tresc_linku_do_projektu",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63de3e6dbbe0a",
+                "label": "Link do projektu",
+                "name": "link_do_projektu",
+                "aria-label": "",
+                "type": "url",
+                "instructions": "Wprowadź link do strony projektu.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_63de3fcb0b9d6",
+                "label": "Zakres prac",
+                "name": "zakres_prac",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "Opisz zakres prac przy tym projekcie.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            },
+            {
+                "key": "field_63de3eadbbe0b",
+                "label": "Galeria projektu",
+                "name": "galeria_projektu",
+                "aria-label": "",
+                "type": "gallery",
+                "instructions": "Dodaj zdjęcia projektu.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min": "",
+                "max": "",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "insert": "append",
+                "preview_size": "medium"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "projekty"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content",
+            "discussion",
+            "comments"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

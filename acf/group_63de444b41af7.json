@@ -1,0 +1,93 @@
+[
+    {
+        "key": "group_63de444b41af7",
+        "title": "Ustawienia Pliku",
+        "fields": [
+            {
+                "key": "field_63de444b5d0e2",
+                "label": "Plik",
+                "name": "plik",
+                "aria-label": "",
+                "type": "file",
+                "instructions": "Dodaj plik.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_size": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_63de44825d0e3",
+                "label": "Ikona pliku",
+                "name": "ikona_pliku",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Wprowadź ikonę pliku. (format .png)",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ".png",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_63de4b5eabc0a",
+                "label": "Opis pliku",
+                "name": "opis_pliku",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "rows": 3,
+                "placeholder": "",
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "pliki"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]

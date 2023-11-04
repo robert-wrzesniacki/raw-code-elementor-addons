@@ -1,0 +1,1325 @@
+/* Alignment Class */
+
+.r-align-left{
+    text-align: left;
+}
+.r-align-right{
+    text-align: right;
+}
+.r-align-center{
+    text-align: center;
+}
+.r-align-left{
+    text-align: justify;
+}
+
+/* Heading Widget - Style 1 */
+
+ .rcode-heading .title-style-1 .sub-title:before {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 3px;
+    background: #272b2b;
+    transition: all 0.75s ease-out;
+    -webkit-transition: all 0.75s ease-out;
+}
+.rcode-heading .title-style-1 .sub-title {
+    /* max-width: 170px; */
+    width: 100%;
+    position: relative;
+    display: block;
+    padding-bottom: 15px;
+    color: black;
+    
+}
+.rcode-heading .title-style-1 .sub-title h1{
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 10px;
+    margin: 0px;
+    text-align: right;
+}
+/* Heading Widget - Style 2 */
+
+.rcode-heading .title-style-2 .sub-title {
+  width: 100%;
+  position: relative;
+  display: block;
+  padding-bottom: 0px;
+  color: black;
+  
+}
+.rcode-heading .title-style-2 .sub-title h2{
+  font-family: "Poppins", Sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0px;
+  padding-top: 20px;
+}
+
+
+@media only screen and (max-width: 1024px){
+
+  .rcode-heading .title-style-1 .sub-title:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    height: 3px;
+    background: #272b2b;
+    transition: all 0.75s ease-out;
+    -webkit-transition: all 0.75s ease-out;
+}
+.rcode-heading .title-style-1 .sub-title .rcode-h1{
+  text-align: left;
+}
+.rcode-heading{
+  padding: 0px 10px;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .rcode-heading .title-style-1 .sub-title:before {
+    width: 120px;
+}
+
+}
+/* Opinions Widget - Style 1 */
+
+.rcode-opinions-container.style-1{
+    width: 100%;
+}
+.style-1 .rcode-opinions-single{
+    margin-bottom: 30px;
+}
+.style-1 .rcode-opinions-single:not(:last-child)::after{
+    content:"";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+    margin-top: 25px;
+}
+
+.style-1 .rcode-opinions-single .rcode-quote .quote,
+.style-2 .rcode-opinions-single .rcode-quote .quote{
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+.style-1 .rcode-opinions-single .rcode-quote .quote-author,
+.style-2 .rcode-opinions-single .rcode-quote .quote-author{
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: black;
+    display: flex;
+    align-items:center;
+
+}
+.style-1 .rcode-opinions-single .rcode-quote .quote-author::before,
+.style-2 .rcode-opinions-single .rcode-quote .quote-author::before{
+    display: inline-block;
+    content: "";
+    width: 15px;
+    height: 2px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+/* Opinions Widget - Style 2 */
+
+.rcode-opinions-container.style-2{
+    width: 100%;
+    border: 1px solid #CCC;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.rcode-opinions-container.style-2{
+  cursor: grab;
+}
+.rcode-opinions-container.style-2 .slider-nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.rcode-opinions-container.style-2 .slider-nav .swiper-button-prev,
+.rcode-opinions-container.style-2 .slider-nav .swiper-button-next{
+    display: block;
+    position: relative;
+    border: 1px solid #6C6C6C;
+    padding: 20px;
+    margin-right:10px;
+    margin-top: 20px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: auto;
+    left: auto;
+}
+.rcode-opinions-container.style-2 .slider-nav .swiper-button-prev::after,
+.rcode-opinions-container.style-2 .slider-nav .swiper-button-next::after{
+    content: "";
+}
+.rcode-opinions-container.style-2 .slider-nav .swiper-button-prev i,
+.rcode-opinions-container.style-2 .slider-nav .swiper-button-next i{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #6C6C6C;
+}
+
+
+/* Clients Widget - Style 1 */
+
+.rcode-clients-container.style-1{
+    background-color: #6C6C6C;
+/*     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) );
+    display: grid;
+    grid-gap: 1px; */
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+}
+
+.style-1 .rcode-clients-single{
+    flex: 1 1 200px;
+    background-color: white;
+}
+.style-2 .rcode-clients-single{
+  text-align: center;
+}
+.style-1 .rcode-clients-single img,
+.style-2 .rcode-clients-single img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    transition: -webkit-filter .3s ease;
+    transition: filter .3s ease;
+    transition: filter .3s ease,-webkit-filter .3s ease;
+}
+.style-1 .rcode-clients-single:hover img,
+.style-2 .rcode-clients-single:hover img{
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+/* Clients Widget - Style 2 */
+.rcode-clients-container.style-2{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* GoodToKnow Widget */
+
+.rcode-goodtoknow-container{
+/*     display: grid;
+    gap: 20px;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(210px, auto)); */
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+    /* gap:20px; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+}
+@media only screen and (max-width: 767px) {
+
+  .rcode-goodtoknow-container{
+      grid-template-columns: repeat(1,1fr);
+  }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+  .rcode-goodtoknow-container{
+      grid-template-columns: repeat(2,1fr);
+  }
+
+}
+
+.rcode-goodtoknow-container .rcode-goodtoknow-single{
+    /* flex: 1 1 210px; */
+    overflow: hidden;
+    background-color: none;
+    border: none;
+    padding: 10px;
+    transition: all 0.3s ease-in-out !important;
+}
+.rcode-goodtoknow-container .rcode-goodtoknow-single:hover{
+    background-color: none;
+    border: none;
+}
+.rcode-goodtoknow-container .rcode-goodtoknow-single .elementor-icon-box-icon i,
+.rcode-goodtoknow-container .rcode-goodtoknow-single .elementor-icon-box-icon svg,
+.rcode-goodtoknow-container .rcode-goodtoknow-single .elementor-icon-box-title,
+.rcode-goodtoknow-container .rcode-goodtoknow-single .elementor-icon-box-description{
+    transition: all 0.3s ease-in-out !important;
+}
+
+.rcode-goodtoknow-single .elementor-icon-box-icon i,
+.rcode-goodtoknow-single .elementor-icon-box-icon svg{
+    fill: black; 
+    color: black; 
+    border-color: black;
+    width: 4rem;
+    padding: 0px;
+    height: auto;
+    margin: auto;
+}
+.rcode-goodtoknow-single:hover .elementor-icon-box-icon i,
+.rcode-goodtoknow-single:hover .elementor-icon-box-icon svg{
+    fill: black; 
+    color: black; 
+    border-color: black;
+}
+.rcode-goodtoknow-single .elementor-icon-box-icon{
+  margin-bottom: 15px;
+}
+.rcode-goodtoknow-single .elementor-icon-box-wrapper{
+    text-align: center;
+}
+.rcode-goodtoknow-single .elementor-icon-box-title{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.rcode-goodtoknow-single .elementor-icon-box-description{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+
+/* Subscription Widget */
+.rcode-subscription-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px;
+}
+.rcode-subscription-container .rcode-subscription-single{
+    flex: 1 1 255px;
+    overflow: hidden;
+    background-color: none;
+    border: 3px solid black;
+    transition: all 0.3s ease-in-out !important;
+    position: relative;
+}
+.rcode-subscription-container .rcode-subscription-single span,
+.rcode-subscription-container .rcode-subscription-single a{
+    display: block;
+    padding: 25px 20px;
+    position: relative;
+    transition: all 0.3s ease-in-out !important;
+}
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-hours{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin: 0px 0px 5px 0px;
+}
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-title{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+}
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-subtitle{
+    color: black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin: 0px 0px 15px 0px;
+}
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-description{
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #6C6C6C;
+    position: relative;
+}
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-description ul,
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-description ol{
+    padding-left: 15px;
+    position: relative;
+}
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-description ul>li,
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-description ol>li{
+    padding-left: 15px;
+}
+.rcode-subscription-container .rcode-subscription-single span::before,
+.rcode-subscription-container .rcode-subscription-single a::before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-top: 35px solid #c89b2c; /* red triangle */
+    border-left: 35px solid transparent;
+    transition: all 0.3s ease-in-out !important;
+  }
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-hours,
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-title,
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-subtitle,
+.rcode-subscription-container .rcode-subscription-single .rcode-subscription-description{
+    transition: all 0.3s ease-in-out !important;
+}
+
+/* Services Widget */
+
+.rcode-services-container.column-grid-auto{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap:20px;
+    }
+
+    .rcode-services-container.column-grid-auto .rcode-services-single{
+      flex: 1 1 210px;
+    }
+    .rcode-services-container.column-grid-1,
+    .rcode-services-container.column-grid-2,
+    .rcode-services-container.column-grid-3,
+    .rcode-services-container.column-grid-4{
+      justify-content: space-between;
+      display: grid;
+      grid-row-gap: 25px;
+      grid-column-gap: 25px;
+    }
+    .rcode-services-container.column-grid-1{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .rcode-services-container.column-grid-2{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .rcode-services-container.column-grid-3{
+      grid-template-columns: repeat(3,1fr);
+    }
+    .rcode-services-container.column-grid-4{
+      grid-template-columns: repeat(4,1fr);
+    }
+
+      @media only screen and (max-width: 767px) {
+        .rcode-services-container.column-grid-1,
+        .rcode-services-container.column-grid-2,
+        .rcode-services-container.column-grid-3,
+        .rcode-services-container.column-grid-4{
+            grid-template-columns: repeat(1,1fr);
+        }
+
+      }
+      @media only screen and (min-width: 768px) and (max-width: 1024px){
+
+        .rcode-services-container.column-grid-3{
+          grid-template-columns: repeat(3,1fr);
+        }
+        .rcode-services-container.column-grid-4{
+            grid-template-columns: repeat(3,1fr);
+        }
+
+      }
+      @media only screen and (max-width: 1024px){
+        .rcode-services-container{
+          padding: 10px;
+          }
+      }
+
+    .rcode-services-container .rcode-services-single{
+        overflow: hidden;
+        background-color: none;
+        padding: 15px 10px;
+        transition: all 0.3s ease-in-out !important;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        border: 3px solid transparent;
+    }
+    .rcode-services-container .rcode-services-single:hover{
+        background-color: none;
+        border: 3px solid #c89b2c;
+    }
+    .rcode-services-container .rcode-services-single .elementor-icon-box-icon i,
+    .rcode-services-container .rcode-services-single .elementor-icon-box-title,
+    .rcode-services-container .rcode-services-single .elementor-icon-box-description{
+        transition: all 0.3s ease-in-out !important;
+    }
+    
+    .rcode-services-single .elementor-icon-box-icon i,
+    .rcode-services-single .elementor-icon-box-icon svg{
+        fill: black; 
+        color: black; 
+        border-color: black;
+        margin-bottom: 15px;
+        width: 4rem;
+        padding: 0px;
+        height: auto;
+        margin: auto;
+    }
+    .rcode-services-single:hover .elementor-icon-box-icon i,
+    .rcode-services-single:hover .elementor-icon-box-icon svg{
+        fill: black; 
+        color: black; 
+        border-color: black;
+        margin-bottom: 15px;
+    }
+    .rcode-services-single .elementor-icon-box-wrapper{
+        text-align: center;
+    }
+    .rcode-services-single .elementor-icon-box-title{
+        color: black;
+        font-family: "Poppins", Sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+    }
+    .rcode-services-single .rcode-service-box-button{
+        text-align: center;
+        text-decoration: none;
+    }
+    .rcode-services-single .elementor-icon-box-description,
+    .rcode-services-single:hover .elementor-icon-box-description{
+        font-family: "Poppins", Sans-serif;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        color: #6C6C6C;
+    }
+    .rcode-services-single .rcode-service-box-button .rcode-service-button{
+        padding: 10px 15px 10px 20px;
+        font-family: "Poppins", Sans-serif;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        background-color: black;
+        transition: all 0.3s ease-in-out !important;
+        display: inline-block;
+        justify-content: center;
+        gap: 15px;
+    }
+    .rcode-services-single .rcode-service-box-button .rcode-service-button:hover{
+        color: white;
+        background-color: #c89b2c;
+    }
+    .rcode-services-single .rcode-service-box-button .rcode-service-button i{
+        display: inline-block;
+        align-self: center;
+        margin-left: 5px;
+    }
+
+    /* Opinion Widget */
+
+    .rcode-opinion-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap:20px;
+        background-color: #c89b2c;
+        margin: auto 0px auto auto;
+    }  
+    
+    @media only screen and (max-width: 1024px){
+
+      .rcode-opinion-container{
+        margin: auto;
+    }  
+
+      }
+
+    .rcode-services-container .rcode-opinion-single,
+    .rcode-opinion-container .rcode-opinion-single{
+        flex: 1 1 210px;
+        overflow: hidden;
+        background-color: #c89b2c;
+        padding: 15px;
+        transition: all 0.3s ease-in-out !important;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        border: 3px solid #c89b2c;
+    }
+
+    .rcode-opinion-single .rcode-opinion-rating{
+        font-family: "Poppins", Sans-serif;
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+        font-weight: 600;
+        color: white;
+        transition: all 0.3s ease-in-out !important;
+    }
+    .rcode-opinion-single .rcode-opinion-maxrate{
+        font-family: "Poppins", Sans-serif;
+        font-size: 1.2rem;
+        line-height: 3.5rem;
+        font-weight: 400;
+        color: white;
+        transition: all 0.3s ease-in-out !important;
+    }
+    .rcode-opinion-single .rcode-opinion-description{
+        font-family: "Poppins", Sans-serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+        color: white;
+        transition: all 0.3s ease-in-out !important;
+        margin-bottom: 25px;
+    }
+    .rcode-opinion-single .opinion-box-wrapper{
+        text-align: center;
+    }
+    .rcode-opinion-single.rcode-opinion-box{
+      max-width: 300px;
+      margin: auto;
+    }
+    .rcode-opinion-single .rcode-opinion-box-button{
+      text-align: center;
+    }
+    .rcode-opinion-single .rcode-opinion-box-button .rcode-opinion-button{
+        padding: 10px 15px 10px 25px;
+        font-family: "Poppins", Sans-serif;
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+        color: white;
+        background-color: black;
+        transition: all 0.3s ease-in-out !important;
+        outline: 3px solid transparent;
+        outline-offset: -3px;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inline-block;
+        justify-content: center;
+        gap: 15px;
+    }
+    .rcode-opinion-single .rcode-opinion-box-button .rcode-opinion-button:hover{
+        color: white;
+        background-color: #c89b2c;
+        outline: 3px solid white;
+    }
+    .rcode-opinion-single .rcode-opinion-box-button .rcode-opinion-button i{
+        display: inline-block;
+        align-self: center;
+        margin-left: 5px;
+    }
+ 
+   /* Post List Grid */
+    .rcode-postlist-container.post-grid .rcode-postlist-article{
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+    .rcode-postlist-container.post-grid .rcode-postlist-article article {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 25px;
+        background-color: white;
+        border: 1px solid #6C6C6C;
+    }
+    @media only screen and (max-width: 576px) {
+        /* Wstaw tutaj swoje style CSS */
+        .rcode-postlist-container.post-grid .rcode-postlist-article article {
+            width:100%;
+        }
+      }
+    @media only screen and (min-width: 577px) and (max-width: 767px) {
+        /* Wstaw tutaj swoje style CSS */
+        .rcode-postlist-container.post-grid .rcode-postlist-article article {
+            width:calc(50% - calc(20px/2));
+        }
+      }
+      
+      /* Tablet */
+      @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        /* Wstaw tutaj swoje style CSS */
+        .rcode-postlist-container.post-grid .rcode-postlist-article article {
+            width:calc(33.3333% - calc(40px/3));
+        }
+      }
+      
+      /* Desktop */
+      @media only screen and (min-width: 1024px) {
+        /* Wstaw tutaj swoje style CSS */
+        .rcode-postlist-container.post-grid .rcode-postlist-article article {
+            width:calc(25% - calc(60px/4));
+        }
+      }
+
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-img{
+        position: relative;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-img .rcode-data{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        padding: 5px 15px;
+        background-color: black;
+        color: white;
+        font-family: "Poppins", Sans-serif;
+        font-size: 0.7rem;
+        line-height: 1.5rem;
+        font-weight: 400;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-img .rcode-post-image{
+        min-height: 140px;
+        background-size: cover;
+        background-position: center;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content > div{
+        width: 100%;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-taglist a,
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-taglist a{
+        font-family: "Poppins", Sans-serif;
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+        font-weight: 400;
+        color: #6C6C6C;
+        margin: 5px 0px;
+        text-transform: uppercase;
+        transition: 0.3s ease-in-out;
+        text-decoration: none !important;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-taglist a:hover,
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-taglist a:hover{
+        color: #c89b2c;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-taglist{
+        margin: 10px 0px 5px;
+      }
+
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-title h3,
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-title h3{
+        font-family: "Poppins", Sans-serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+        color: #272b2b;
+      }
+
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-title a,
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-title a:hover{
+        text-decoration: none !important;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-title a h3,
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-title a h3{
+        font-family: "Poppins", Sans-serif;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+        color: #272b2b;
+        transition: 0.3s ease-in-out;
+        text-decoration: none !important;
+        margin: 1rem 0;
+      }
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-title a h3{
+        margin: 0.5rem 0 1rem 0;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-title a:hover h3,
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-title a:hover h3{
+        color: #c89b2c;
+      }
+
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-autor{
+        align-self:flex-end;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-autor h4,
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-autor h4{
+        font-family: "Poppins", Sans-serif;
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+        font-weight: 400;
+        color: #6C6C6C;
+        margin: 0px;
+      }
+      .rcode-postlist-container.post-grid .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-autor h4::before,
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-autor h4::before{
+        content: "•";
+        font-size: 0.7rem;
+        margin-right: 5px;
+        vertical-align: top;
+        display: inline;
+        color: #6C6C6C;
+      }
+
+ /* Post List Lista */
+
+ .rcode-postlist-container.post-list .rcode-postlist-article{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 30px;
+    align-items: stretch;
+}
+.rcode-postlist-container.post-list .rcode-postlist-article article {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    background-color: white;
+    border: 1px solid #6C6C6C;
+    width:100%;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+  .rcode-postlist-container.post-list{
+    padding: 10px;
+}  
+}
+@media only screen and (max-width: 1024px){
+
+  .rcode-postlist-container.post-grid{
+    padding: 10px;
+}  
+}
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-img{
+    position: relative;
+  }
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-img .rcode-data{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-img .rcode-post-image{
+    height: 100%;
+    min-height: 140px;
+    min-width: 250px;
+    background-size: cover;
+    background-position: center;
+  }
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 20px;
+  }
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-postlist-taglist{
+    margin: 0px 0px 5px;
+  }
+
+
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-bottom-content{
+    align-self: flex-end;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-bottom-content .rcode-postlist-autor{
+    margin-right: 20px;
+  }
+
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-bottom-content .rcode-bottom-like{
+    display: flex;
+    gap:20px;
+  }
+  @media only screen and (max-width: 576px) {
+   
+    .rcode-postlist-container.post-list .rcode-postlist-article article {
+        flex-direction: column;
+        padding: 20px 25px;
+    }
+    .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-img .rcode-post-image{
+        min-height: 140px;
+        width: 100%;
+        min-width: 0px;
+      }
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content{
+        padding: 10px 0px 0px;
+      }
+
+
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-bottom-content{
+        flex-direction: column;
+        gap:10px;
+      }
+
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-bottom-content .rcode-postlist-autor{
+        width: 100%;
+        display: flex;
+        justify-content: left;
+      }
+      .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-bottom-content .rcode-bottom-like{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+  }
+
+
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-bottom-content .rcode-bottom-like .post-views,
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-bottom-content .rcode-bottom-like .post-likes{
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin: 0px;
+  }
+
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-bottom-content .rcode-bottom-like .post-views i,
+  .rcode-postlist-container.post-list .rcode-postlist-article article .rcode-postlist-content .rcode-bottom-content .rcode-bottom-like .post-likes i{
+    margin-right: 5px;
+  }
+
+
+  .rcode-postlist-container .rcode-postlist-pagination{
+    display: flex;
+    gap: 10px;
+    margin: 20px auto;
+  }
+
+  .rcode-postlist-container .rcode-postlist-pagination a,
+  .rcode-postlist-container .rcode-postlist-pagination span{
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: #272b2b;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+  }
+  .rcode-postlist-container .rcode-postlist-pagination a:hover{
+    color: #c89b2c;
+  }
+  .rcode-postlist-container .rcode-postlist-pagination span.current{
+    color: #c89b2c;
+    text-decoration: underline;
+  }
+ 
+  @media only screen and (max-width: 1024px){
+    .rcode-projects-container.projects-grid{
+      padding: 10px;
+  }
+  }
+.rcode-projects-container.projects-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 25px;
+}
+.rcode-projects-container.projects-grid article{
+    background-color: #6C6C6C;
+    align-self: flex-start;
+    transition-property: transform, opacity;
+    transition-timing-function: ease-in-out;
+    transform-style: preserve-3d;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+}
+
+.rcode-projects-container.projects-grid article .rcode-projects-box{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 0px;
+}
+
+
+.rcode-projects-container.projects-grid article .rcode-projects-img{
+    position: absolute;
+    background-color: rgba(0,0,0,.1);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.rcode-projects-container.projects-grid article .rcode-projects-img img{
+    display: block;
+    width: 100%;
+    max-height: none;
+    max-width: none;
+    transition: filter .3s;
+    height: auto;
+    position: absolute;
+    /* top: calc(50% + 1px);
+    left: calc(50% + 1px);
+    transform: scale(1.1) translate(-45%,-45%); */
+}
+
+@media only screen and (max-width: 767px) {
+
+    .rcode-projects-container.projects-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+
+    .rcode-projects-container.projects-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+  }
+
+
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 15px;
+    transition: opacity .5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgba(221, 221, 221, 1);
+  }
+
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay:hover {
+    opacity: 1;
+    transition: opacity .5s;
+  }
+
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-heading .rcode-projects-title{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    margin: 0px auto;
+    padding: 15px 10px 0px;
+    transition: 0.3s ease-in-out;
+  }
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-heading a,
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-heading a .rcode_projects_title{
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  color: #272b2b;
+}
+.rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-heading a:hover,
+.rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-heading a:hover .rcode_projects_title{
+  text-decoration: none;
+  color: #c89b2c;
+}
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-heading .rcode-projects-categories{
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin: 5px 0px;
+}
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-heading .rcode-projects-separator{
+    height: 3px;
+    background-color: black;
+    width: 70%;
+    text-align: center;
+    margin: 15px auto 5px;
+  }
+
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-button{
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: #272b2b;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    margin: 5px auto 0px;
+    padding: 10px 15px;
+    text-decoration: none;
+    width: 100%;
+  }
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-button i{
+    display: inline-block;
+    background-color: transparent;
+    color: black;
+    margin-left: 5px;
+    padding: 3px 7px;
+    transition: 0.3s ease-in-out;
+  }
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-button:hover{
+    color: #c89b2c;
+  }
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-button:hover i{
+    background-color: transparent;
+    color: #c89b2c;
+  }
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-heading .rcode-projects-like{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-heading .rcode-projects-like .post-views,
+  .rcode-projects-container.projects-grid article .rcode-projects-overlay .rcode-projects-heading .rcode-projects-like .post-likes{
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin: 0px;
+  }
+
+
+  .rcode-likeview-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .rcode-likeview-box .rcode-likeview-button {
+      text-align: center;
+    }
+    
+    .rcode-likeview-box .rcode-likeview-text {
+      text-align: center;
+        font-family: "Poppins", Sans-serif;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 20px;
+        color: black;
+        
+    }
+    
+    .rcode-likeview-box .rcode-likeview-count {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .rcode-likeview-box .rcode-likeview-count  .post-views,
+    .rcode-likeview-box .rcode-likeview-count  .post-likes{
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #6C6C6C;
+    margin: 0px;
+  }
+
+  .rcode-likeview-box .rcode-likeview-count .post-views i,
+  .rcode-likeview-box .rcode-likeview-count .post-likes i{
+    margin-right: 5px;
+  }
+
+  .like-button .like-button-inner,
+  .like-button .like-button-inner:hover,
+  .like-button.liked .like-button-inner,
+  .like-button.liked .like-button-inner:hover{
+    border: none;
+    background-color: transparent;
+  }
+
+  .like-button .like-button-inner i{
+    font-size: 3rem;
+    color: #c89b2c;
+  }
+
+  .like-button .like-button-inner:focus{
+    outline:none !important;
+    background-color:transparent !important;
+  }
+.rcode-likeview-info{
+  text-align: center;
+  font-family: "Poppins", Sans-serif;
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+  font-weight: 400;
+  color: #c89b2c;
+}
+  .autor-box > div{
+    display: list-item;
+    padding-left: 5px !important;
+    position: relative !important;
+    margin-left: 15px;
+  }
+
+  .rcode-taxonomy-list{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  .rcode-taxonomy-list span a{
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    text-decoration: none;
+    border: 2px solid black;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+  .rcode-taxonomy-list span a:hover{
+    color:#c89b2c;
+    background-color: transparent;
+    border-color: #c89b2c;
+  }
+  .rcode-taxonomy-head{
+    display: block;
+    width: 100%;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .rcode-filelist-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .rcode-filelist-container .rcode-file-container {
+    width: 50%;
+    margin: 10px 0px;
+  }
+  .rcode-filelist-container .rcode-file-container .rcode-file-link{
+    text-decoration: none;
+    display: flex;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+  }
+  .rcode-filelist-container .rcode-file-container .rcode-file-link:hover{
+    color:#c89b2c;
+  }
+  .rcode-filelist-container .rcode-file-container .rcode-file-img{
+    display: inline-block;
+    padding: 15px;
+    text-align: left;
+  }
+  .rcode-filelist-container .rcode-file-container .rcode-file-img img{
+    max-width: 70px;
+  }
+  .rcode-filelist-container .rcode-file-container .rcode-file-content{
+    display: inline-block;
+    padding: 15px;
+  }
+
+  .rcode-filelist-container .rcode-file-container .rcode-file-content .rcode-file-title h3{
+    font-family: "Poppins", Sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-decoration: none !important;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: black;
+    transition: 0.3s ease-in-out;
+  }
+  .rcode-filelist-container .rcode-file-container .rcode-file-content .rcode-file-description{
+    text-decoration: none !important;
+    font-family: "Poppins", Sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #6C6C6C;
+    transition: 0.3s ease-in-out;
+  }
+
+  .rcode-filelist-container .rcode-file-container .rcode-file-link:hover .rcode-file-content .rcode-file-description,
+  .rcode-filelist-container .rcode-file-container .rcode-file-link:hover .rcode-file-content .rcode-file-title h3{
+    color:#c89b2c;
+  }
+  .rcode-filelist-container .rcode-file-container .rcode-file-img .rcode-file-img-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .rcode-filelist-container .rcode-file-container .rcode-file-link .rcode-file-img .rcode-file-img-box::after{
+    content: '';
+    background: url('/wp-content/plugins/raw-code-elementor-addons/inc/arrowdown.svg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center center;
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-size: contain;
+    background-color: white;
+    margin-left: 8px;
+    transition: 0.3s ease-in-out;
+    transform: translateY(40px);
+    padding: 5px 4px;
+    opacity: 0; 
+  }
+  .rcode-filelist-container .rcode-file-container .rcode-file-link:hover .rcode-file-img .rcode-file-img-box::after{
+    transform: translateY(20px);
+    opacity: 1; 
+  }
+  @media only screen and (max-width: 767px) {
+
+    .rcode-filelist-container .rcode-file-container {
+      width: 100%;
+    }
+
+  }
+
+
+  .rcode-icon-link a{
+    text-decoration: none !important; 
+    cursor: pointer;
+  }
+  .rcode-icon-link a .elementor-icon-box-icon,
+  .rcode-icon-link a .elementor-icon-box-content .elementor-icon-box-title{
+    transition: 0.3s ease-in-out;
+  }

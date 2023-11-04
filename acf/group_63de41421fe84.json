@@ -1,0 +1,68 @@
+[
+    {
+        "key": "group_63de41421fe84",
+        "title": "Opinia",
+        "fields": [
+            {
+                "key": "field_63de414285e6c",
+                "label": "Autor Opinii",
+                "name": "autor_opinii",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "Wprowadź nazwę autora opinii.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63de418885e6d",
+                "label": "Treść opinii",
+                "name": "tresc_opinii",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "Wprowadź treść opinii.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "100",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "opinie"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": [
+            "the_content"
+        ],
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
